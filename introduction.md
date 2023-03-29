@@ -7,7 +7,7 @@ ords = [99, 114, 121, 112, 116, 111, 123, 65, 83, 67, 73,
 print("Here is your flag:")
 print("".join(chr(o) for o in ords))
 ```
-* １６新数をバイトに変換してASKIIで表示
+* １６進数をバイトに変換してASKIIで表示
 ```
 str = "63727970746f7b596f755f77696c6c5f62655f776f726b696e675f776974685f6865785f737472696e67735f615f6c6f747d"
 print(bytes.fromhex(str))
@@ -17,7 +17,7 @@ print(bytes.fromhex(str))
 str = "72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"
 print(base64.b64encode(bytes.fromhex(str)))
 ```
-* １６新数を文字列にしてベース６４でエンコード
+* 10進数を文字列にしてベース６４でエンコード
 ```
 from Crypto.Util.number import *
 str = 11515195063862318899931685488813747395775516287289682636499965282714637259206269
