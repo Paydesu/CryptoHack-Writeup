@@ -192,7 +192,7 @@ for i in range(0, len(flag), 8 ):
 print(text)
 ```
 * 細かい計算は画像の通り。標準の割り算をすると誤差が出るので、Fractionをインポートして使う。
-<img src="/img/スクリーンショット 2023-02-22 12.35.50.png" alt="エビフライトライアングル" title="サンプル">
+<img src="img/スクリーンショット 2023-02-22 12.35.50.png" alt="エビフライトライアングル" title="サンプル">
 ```
 from fractions import Fraction
 from math import gcd
